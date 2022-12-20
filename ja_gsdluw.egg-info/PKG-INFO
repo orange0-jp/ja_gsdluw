@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ja-gsdluw
+Version: 3.2.0
+Summary: Japanese transformer pipeline (bert-base). Components: transformer, parser, ner, morphologizer, luw_xpos_tagger, merge_subtokens.
+Home-page: https://github.com/megagonlabs/UD_japanese_GSD
+Author: Megagon Labs Tokyo.
+Author-email: ginza@megagon.ai
+License: CC BY-SA 4.0
+Platform: UNKNOWN
+
+Japanese transformer pipeline (bert-base). Components: transformer, parser, ner, morphologizer, luw_xpos_tagger, merge_subtokens.
+
+| Feature | Description |
+| --- | --- |
+| **Name** | `ja_gsdluw` |
+| **Version** | `3.2.0` |
+| **spaCy** | `>=3.2.3,<3.3.0` |
+| **Default Pipeline** | `transformer`, `parser`, `morphologizer`, `ner` |
+| **Components** | `transformer`, `parser`, `morphologizer`, `ner` |
+| **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
+| **Sources** | [UD_Japanese-GSDLUW](https://github.com/UniversalDependencies/UD_Japanese-GSDLUW)<br />[UD_Japanese-GSD r2.9+NE](https://github.com/megagonlabs/UD_Japanese-GSD/releases/tag/r2.9-NE)<br />[SudachiDict_core](https://github.com/WorksApplications/SudachiDict)<br />[cl-tohoku/bert-base-japanese-v2](https://huggingface.co/cl-tohoku/bert-base-japanese-v2)<br />[unidic_lite](https://github.com/polm/unidic-lite) |
+| **License** | `CC BY-SA 4.0` |
+| **Author** | [Megagon Labs Tokyo.](https://github.com/megagonlabs/UD_japanese_GSD) |
+
+### Label Scheme
+
+<details>
+
+<summary>View label scheme (62 labels for 3 components)</summary>
+
+| Component | Labels |
+| --- | --- |
+| **`parser`** | `ROOT`, `acl`, `advcl`, `advmod`, `amod`, `aux`, `case`, `cc`, `ccomp`, `compound`, `cop`, `csubj`, `dep`, `det`, `dislocated`, `mark`, `nmod`, `nsubj`, `nummod`, `obj`, `obl`, `punct`, `subtok` |
+| **`morphologizer`** | `POS=NOUN`, `POS=ADP`, `POS=VERB`, `POS=SCONJ`, `POS=PUNCT`, `POS=ADJ`, `POS=AUX`, `POS=DET`, `POS=NUM`, `POS=ADV`, `POS=PRON`, `POS=PART`, `POS=PROPN`, `POS=CCONJ`, `POS=SYM`, `POS=INTJ`, `POS=X` |
+| **`ner`** | `CARDINAL`, `DATE`, `EVENT`, `FAC`, `GPE`, `LANGUAGE`, `LAW`, `LOC`, `MONEY`, `MOVEMENT`, `NORP`, `ORDINAL`, `ORG`, `PERCENT`, `PERSON`, `PET_NAME`, `PHONE`, `PRODUCT`, `QUANTITY`, `TIME`, `TITLE_AFFIX`, `WORK_OF_ART` |
+
+</details>
+
+### Accuracy
+
+| Type | Score |
+| --- | --- |
+| `DEP_UAS` | 96.41 |
+| `DEP_LAS` | 95.53 |
+| `SENTS_P` | 99.61 |
+| `SENTS_R` | 99.80 |
+| `SENTS_F` | 99.70 |
+| `POS_ACC` | 98.14 |
+| `MORPH_MICRO_F` | 0.00 |
+| `MORPH_PER_FEAT` | 0.00 |
+| `ENTS_F` | 81.94 |
+| `ENTS_P` | 79.97 |
+| `ENTS_R` | 84.01 |
+| `TAG_ACC` | 0.00 |
+| `TRANSFORMER_LOSS` | 5064.96 |
+| `PARSER_LOSS` | 381.36 |
+| `MORPHOLOGIZER_LOSS` | 4579.71 |
+| `NER_LOSS` | 1500.16 |
+
