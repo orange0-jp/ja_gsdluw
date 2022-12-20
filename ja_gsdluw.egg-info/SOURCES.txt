@@ -1,6 +1,7 @@
 MANIFEST.in
 README.md
 meta.json
+setup.cfg
 setup.py
 ja_gsdluw/__init__.py
 ja_gsdluw/luw_xpos_tagger.py

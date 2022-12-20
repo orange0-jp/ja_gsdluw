@@ -6,7 +6,6 @@ Home-page: https://github.com/megagonlabs/UD_japanese_GSD
 Author: Megagon Labs Tokyo.
 Author-email: ginza@megagon.ai
 License: CC BY-SA 4.0
-Platform: UNKNOWN
 
 Japanese transformer pipeline (bert-base). Components: transformer, parser, ner, morphologizer, luw_xpos_tagger, merge_subtokens.
 
@@ -14,7 +13,7 @@ Japanese transformer pipeline (bert-base). Components: transformer, parser, ner,
 | --- | --- |
 | **Name** | `ja_gsdluw` |
 | **Version** | `3.2.0` |
-| **spaCy** | `>=3.2.3,<3.3.0` |
+| **spaCy** | `>=3.2.3` |
 | **Default Pipeline** | `transformer`, `parser`, `morphologizer`, `ner` |
 | **Components** | `transformer`, `parser`, `morphologizer`, `ner` |
 | **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
@@ -56,4 +55,3 @@ Japanese transformer pipeline (bert-base). Components: transformer, parser, ner,
 | `PARSER_LOSS` | 381.36 |
 | `MORPHOLOGIZER_LOSS` | 4579.71 |
 | `NER_LOSS` | 1500.16 |
-

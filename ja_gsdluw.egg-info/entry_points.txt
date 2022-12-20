@@ -1,3 +1,2 @@
 [spacy_models]
 ja_gsdluw = ja_gsdluw
-

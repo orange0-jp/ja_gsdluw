@@ -4,7 +4,7 @@ Japanese transformer pipeline (bert-base). Components: transformer, parser, ner,
 | --- | --- |
 | **Name** | `ja_gsdluw` |
 | **Version** | `3.2.0` |
-| **spaCy** | `>=3.2.3,<3.3.0` |
+| **spaCy** | `>=3.2.3` |
 | **Default Pipeline** | `transformer`, `parser`, `morphologizer`, `ner` |
 | **Components** | `transformer`, `parser`, `morphologizer`, `ner` |
 | **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
